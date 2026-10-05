@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TS Cyber Corner | Online Service & Shop</title>
+<meta name="description" content="TS Cyber Corner - Online services, printing, photo, scanning and digital services.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">TS <span>Cyber Corner</span></div>
+    <a class="wa" href="https://wa.me/918128943758" target="_blank">WhatsApp</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <p class="tag">ONLINE SERVICE • PRINTING • DIGITAL SHOP</p>
+      <h1>আপনার সব অনলাইন কাজ,<br><span>এক জায়গায়।</span></h1>
+      <p class="sub">ফর্ম ফিল-আপ, প্রিন্টিং, স্ক্যানিং, ছবি ও বিভিন্ন ডিজিটাল পরিষেবা সহজেই অর্ডার করুন।</p>
+      <div class="buttons">
+        <a href="#services" class="btn primary">সার্ভিস দেখুন</a>
+        <a href="https://wa.me/918128943758?text=Hello%20TS%20Cyber%20Corner%2C%20I%20want%20a%20service." target="_blank" class="btn secondary">WhatsApp করুন</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="icon">🖥️</div>
+      <h3>TS Cyber Corner</h3>
+      <p>Fast • Reliable • Affordable</p>
+      <a href="tel:+918128943758">📞 8128943758</a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <div class="heading">
+      <p class="tag">OUR SERVICES</p>
+      <h2>জনপ্রিয় সার্ভিস</h2>
+      <p>আপনার প্রয়োজনের সার্ভিসটি বেছে নিয়ে অর্ডার/রিকোয়েস্ট পাঠান।</p>
+    </div>
+    <div class="grid">
+      <article class="card"><div class="emoji">📝</div><h3>Online Form</h3><p>অনলাইন আবেদন ও ফর্ম ফিল-আপ।</p><button onclick="requestService('Online Form / Application')">Request</button></article>
+      <article class="card"><div class="emoji">🖨️</div><h3>Printing</h3><p>Black & White এবং Colour Printing।</p><button onclick="requestService('Printing')">Request</button></article>
+      <article class="card"><div class="emoji">📷</div><h3>Passport Photo</h3><p>Passport size photo ও background service।</p><button onclick="requestService('Passport Photo')">Request</button></article>
+      <article class="card"><div class="emoji">📄</div><h3>Scanning</h3><p>Document scanning ও digital copy।</p><button onclick="requestService('Scanning')">Request</button></article>
+      <article class="card"><div class="emoji">⌨️</div><h3>Typing</h3><p>বাংলা/ইংরেজি typing ও document preparation।</p><button onclick="requestService('Typing / Document')">Request</button></article>
+      <article class="card"><div class="emoji">💻</div><h3>Digital Services</h3><p>বিভিন্ন online ও digital কাজের সহায়তা।</p><button onclick="requestService('Digital Service')">Request</button></article>
+    </div>
+  </div>
+</section>
+
+<section class="order-section" id="order">
+  <div class="container order-box">
+    <div>
+      <p class="tag">SERVICE REQUEST</p>
+      <h2>অনলাইনে রিকোয়েস্ট পাঠান</h2>
+      <p>ফর্মটি পূরণ করুন। আপনার তথ্য WhatsApp-এ পাঠানোর জন্য নিচের বাটনে চাপুন।</p>
+    </div>
+    <form id="requestForm">
+      <input id="name" required placeholder="আপনার নাম">
+      <input id="phone" required type="tel" placeholder="মোবাইল নম্বর">
+      <select id="service" required>
+        <option value="">সার্ভিস নির্বাচন করুন</option>
+        <option>Online Form / Application</option><option>Printing</option>
+        <option>Passport Photo</option><option>Scanning</option>
+        <option>Typing / Document</option><option>Digital Service</option><option>Other</option>
+      </select>
+      <textarea id="details" placeholder="কাজের বিস্তারিত লিখুন"></textarea>
+      <button class="btn primary full" type="submit">WhatsApp-এ Request পাঠান</button>
+    </form>
+  </div>
+</section>
+
+<section class="about section">
+  <div class="container about-grid">
+    <div>
+      <p class="tag">WHY TS CYBER CORNER</p>
+      <h2>সহজ, দ্রুত ও নির্ভরযোগ্য পরিষেবা</h2>
+      <p>আপনার দৈনন্দিন online ও digital কাজ দ্রুত সম্পন্ন করার জন্য TS Cyber Corner-এ বিভিন্ন পরিষেবা পাওয়া যায়।</p>
+    </div>
+    <div class="features">
+      <div>⚡ <b>দ্রুত পরিষেবা</b><small>সময় বাঁচিয়ে কাজ সম্পন্ন</small></div>
+      <div>💰 <b>সাশ্রয়ী মূল্য</b><small>প্রয়োজন অনুযায়ী পরিষেবা</small></div>
+      <div>📱 <b>WhatsApp Support</b><small>সহজে যোগাযোগ করুন</small></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div><h3>TS Cyber Corner</h3><p>Online Service & Digital Shop</p></div>
+    <div><b>📍 Address</b><p>Balakura, Khutamara,<br>Cooch Behar, West Bengal - 736134</p></div>
+    <div><b>📞 Contact</b><p><a href="tel:+918128943758">8128943758</a><br><a href="https://wa.me/918128943758" target="_blank">WhatsApp</a></p></div>
+  </div>
+  <div class="copyright">© 2026 TS Cyber Corner. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
